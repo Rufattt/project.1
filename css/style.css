@@ -1,0 +1,429 @@
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/****************NAVBAR   START**********************/
+#navbar{
+    background-color: rgb(47,46,46)!important;
+    font-family:sans-serif;
+    font-size: 14px
+}
+.nav-link{
+    color: #ffff !important;
+}
+.logLogo{
+    width: 30px;
+    height: 30px;
+}
+.navbar-nav > li{
+    padding-left:30px;
+}
+.logLogo{
+    margin-right: 10px;
+}
+.nav-link:hover{
+    opacity: 50%;
+}
+/****************NAVBAR  END**********************/
+
+/****************PHOTO SECTION START**********************/
+.header-section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.144),rgba(0, 0, 0, 0.144)) ,url('../image/car.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+.car-div{
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding-top: 200px;
+}
+.wrench{
+    border-radius: 50%;
+    border: 3px solid #fff;
+    padding: 30px;
+}
+.JA{
+    font-weight: bold;
+    font-size: 50px;
+}
+.p{
+    font-size: 29px;
+}
+.fpi{
+    padding-top: 35px;
+}
+/****************PHOTO SECTION END************************/
+
+/****************SERVICES SECTION START**********************/
+.services-section{
+    font-weight: bold !important;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.144),rgba(0, 0, 0, 0.144)) ,url(../image/black.jpg);
+    padding: 50px 0;
+    margin-bottom: 50px;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headings{
+    margin-bottom: 50px;
+}
+.drill{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 15px;
+}
+.colorcart{
+    height: 140px;
+    width: 140px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 15px;
+}
+.bucket{
+    height: 140px;
+    width: 140px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 15px;
+}
+#service-divs{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h5{
+    margin-top: 40px !important;
+}
+
+/****************SERVICES SECTION END**********************/
+
+/****************OUR WORK SECTION START**********************/
+#work-div{
+    width: 200px;
+    height: 300px;
+    transition: 0.55s all;
+}
+#work-div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(71, 71, 71, 0.603);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+#work-div .info{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s all;
+}
+#work-div .info:hover{
+    opacity: 1;
+}
+#work-div:hover:before{
+    opacity: 1;
+}
+.work-1{
+    background-image: url(../image/car-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work-2{
+    background-image: url(../image/car-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work-3{
+    background-image: url(../image/car-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.work-4{
+    background-image: url(../image/car-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work-5{
+    background-image: url(../image/car-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work-6{
+    background-image: url(../image/car-6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.like-button{
+    background-color: transparent;
+    border: 0;
+}
+.share-button{
+    background-color: transparent;
+    border: 0;
+}
+.buttons{
+    padding-top: 50px;
+}
+.like-button:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.share-button:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.info{
+    margin-top: 70px;
+    text-align: center;
+}
+.cards{
+    margin: 50px;
+}
+/****************OUR WORK SECTION END**********************/
+
+/****************ABOUT US SECTION START**********************/
+.about-section{
+    width: 100%;
+    height: auto;
+    background-color:#b4ac9c;
+    padding: 5%;
+    background-attachment: fixed;
+}
+.about-div{
+    text-align: center;
+    background-color: #fff;
+}
+.about-text{
+    font-size: 20px;
+    padding: 40px;
+}
+/****************ABOUT US SECTION END**********************/
+
+/****************SPACE SECTION START**********************/
+.space{
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/about-car.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/****************SPACE SECTION END**********************/
+
+/****************CONTACT SECTION START**********************/
+.contact{
+    width: 100%;
+    height: auto;
+    background-color:#b4ac9c;
+    padding: 10%;
+    background-attachment: fixed;
+}
+.contact-info{
+    list-style: none;
+    padding-top: 100px;
+    text-align: center;
+}
+.contact-info a{
+    color: #212529;
+}
+.form{
+    background-color: #fff;
+    padding: 30px;
+    font-family:sans-serif;
+    border: 3px solid #212529;
+}
+.form-name{
+    width: 80%;
+    height: 30px;
+}
+.form-last-name{
+    width: 80%;
+    height: 30px;
+}
+.form-email{
+    width: 80%;
+    height: 30px;
+}
+.form-message{
+    width: 80% ;
+}
+.form-subject{
+    width: 80% ;
+    height: 30px;
+}
+.submit-btn{
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 0;
+    color: #fff;
+    background-color: #212529;
+}
+.submit-btn:hover{
+    opacity: 60%;
+    transition: 0.5s;
+}
+/****************CONTACT SECTION END**********************/
+
+/****************FOOTER SECTION START**********************/
+.footer{
+    margin: 0;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(47,46,46);
+}
+.footer-div{
+    width: 200px;
+    color: #fff;
+    padding-top: 40px;
+}
+.footer-social-fb{
+    width: 40px;
+    height: 40px;
+}
+.footer-social{
+    width: 36px;
+    height: 36px;
+    margin-left: 5px;
+}
+#myBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: white;
+    background: rgb(47,46,46);
+    padding: 10px;
+    border-radius: 50%;
+}
+#myBtn:hover{
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.562);
+}
+
+/**********CHAT SECTION*********/
+
+#chat-btn{
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    z-index: 89;
+    border: none;
+    background: rgb(47,46,46);
+    padding: 10px;
+    border-radius: 50%;
+}
+#chat-btn:hover{
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.562);
+}
+.chat{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+.chat-popup{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 90px;
+    width: 330px;
+    height: 550px;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.562);
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+}
+.head{
+    width: 100%;
+    height: 70px;
+    background-color: #d1cac9;
+}
+.close-btn{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.head-text-1{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.lightning{
+    width: 30px;
+    height: 20px;
+    margin-top: 15px;
+    
+}
+.body{
+    width: 100%;
+    height: 100%;
+    
+}
+.send-section{
+    background-color: #d1cac9;
+    width: 100%;
+    height: 70px; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-top: 15px;
+}
+.emoji {
+    opacity: 0.5;
+    width: 36px;
+}
+.message {
+    opacity: 0.5;
+    border: none;
+}
+.attach {
+    opacity: 0.5;
+    width: 33px;
+}
+.emoji-icon{
+    padding-top: 7px;
+}
+.attach-icon{
+    padding-top: 7px;
+}
+.textarea{
+    border: none;
+}
+/**********CHAT SECTION*********/
+
+/****************FOOTER SECTION END**********************/
